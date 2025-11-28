@@ -14,9 +14,9 @@ const team = [
     links: { linkedin: "https://www.linkedin.com/in/shahlozarifova/" }
   },
   {
-    name: "Mohira U.",
-    role: "Head of Marketing",
-    skills: ["Growth Marketing", "Branding", "Content"],
+    name: "Tillaboyev Izzat",
+    role: "Dastur asoschisi & Dasturchi & Pentester",
+    skills: ["Backend", "AI Dasturlash"],
     links: { linkedin: "#", github: "#" }
   }
 ];
