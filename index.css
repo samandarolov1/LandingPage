@@ -20,3 +20,7 @@ section {
 h2 {
     color: #333;
 }
+
+.img img{
+    border-radius: 50%;
+}

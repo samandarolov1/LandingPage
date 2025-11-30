@@ -22,10 +22,10 @@ const team = [
 ];
 
 const roadmap = [
-  { phase: "Idea", date: "Q2 2025", points: ["G‘oya validatsiyasi", "Bozor tadqiqoti"] },
-  { phase: "Prototype", date: "Q3 2025", points: ["Figma prototipi", "Basic frontend"] },
-  { phase: "MVP", date: "Q4 2025", points: ["Core features", "Beta foydalanuvchilar"] },
-  { phase: "Launched", date: "Q1 2026", points: ["Rasmiy ishga tushirish", "Marketing kampaniyasi"] }
+  { phase: "Research & Insight", date: "Q3 2025", points: ["Bozor tadqiqoti", "Kiber hujum turlarini chuqur tahlil qilish (phishing, social engineering, malware, card cloning)", "Foydalanuvchi xatti-harakati va hujumga uchrash ehtimolini segmentlash"] },
+  { phase: "Concept & Strategy", date: "Q4 1/2 2025", points: ["Risk monitoring va threat detection algoritmlarini rejalashtirish", "Risk monitoring va threat detection algoritmlarini rejalashtirish", "Foydalanuvchi uchun farqlovchi (unique) qiymat taklifi (UVP)ni shakllantirish"] },
+  { phase: "MVP Build & Pilot Testing", date: "Q4 2/2 2025", points: ["Real-time fraud detection, transaction blocking va alert funksiyalari", "Beta foydalanuvchilar (bank, fintech startaplar, test guruh) bilan sinov", "AI modelini takomillashtirish (behavioral analysis, pattern learning)", "Feedback asosida optimizatsiya"] },
+  { phase: "Launch & Growth", date: "Q1 2026", points: ["Rasmiy ishga tushirish", "B2B hamkorlar (banklar, fintech kompaniyalar, to‘lov provayderlari) bilan kelishuvlar", "Marketing strategiyasi: Trust-based marketing, digital PR, cybersecurity forums"] }
 ];
 
 /* ---------------- HERO ---------------- */
@@ -87,12 +87,10 @@ document.getElementById("problem-section").innerHTML = `
       Biz ishlab chiqayotgan tizim — ko‘p bosqichli tahdidlarga qarshi himoya qila oladigan, real vaqt rejimida ishlovchi va ko'plab mustaqil hujumni bir vaqtning o‘zida qaytara oladigan ilg‘or xavfsizlik platformasidir. Tizim zamonaviy fintech standartlari asosida yaratilgan bo‘lib, unda quyidagi yondashuv qo‘llaniladi:
     </p>
     <ul class="mt-3 list-disc list-inside text-gray-600 space-y-1">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>Shaxsiy va moliyaviy ma’lumotlarni uzatish hamda saqlash jarayonida kuchli kriptografik usullar orqali shifrlash.</li>
+      <li>Sun’iy intellekt yordamida shubhali tranzaksiyalarni aniqlash va avtomatik bloklash.</li>
+      <li>Foydalanuvchini firibgarlik havolalari va zararli fayllardan avtomatik ogohlantirish.</li>
+      <li>O‘zgartirib bo‘lmaydigan yozuvlar orqali tranzaksiyalar shaffofligini ta’minlash.</li>
     </ul>
   </article>
 </section>
@@ -139,23 +137,18 @@ document.getElementById("why").innerHTML = `
 <section class="bg-white p-6 rounded-xl shadow">
   <h3 class="text-2xl font-bold">3. Nima uchun biz?</h3>
   <p class="mt-3 text-gray-600">
-    Bizda kombinatsiyalangan tajriba — biznes strategiya, texnologiya va marketing.
+Biz — moliyaviy xavfsizlik, fintech texnologiyalari va marketing strategiyalarini uyg‘unlashtirgan tajribali jamoamiz. Bank kartalari orqali sodir bo‘ladigan kiber hujumlarni aniqlash, oldini olish va real vaqt rejimida nazorat qilishga ixtisoslashgan innovatsion platforma ishlab chiqamiz.
   </p>
 
-  <div class="mt-4 grid md:grid-cols-3 gap-4">
+  <div class="mt-4 grid md:grid-cols-2 gap-4">
     <div class="p-4 border rounded">
       <div class="font-semibold">Tajriba</div>
-      <div class="text-sm text-gray-600 mt-2">Case study’lar va amaliy loyihalar.</div>
+      <div class="text-sm text-gray-600 mt-2">Bizda real holatlarga asoslangan Case study’lar, bank va fintech sohasida sinovdan o‘tgan amaliy xavfsizlik loyihalari mavjud. Katta miqyosdagi tranzaksiyalar, phishing, social engineering hamda fraud hujumlariga qarshi yechimlar ishlab chiqqan tajribamiz bor.</div>
     </div>
 
     <div class="p-4 border rounded">
-      <div class="font-semibold">Texnik kuch</div>
-      <div class="text-sm text-gray-600 mt-2">React, Node.js, PostgreSQL, Docker.</div>
-    </div>
-
-    <div class="p-4 border rounded">
-      <div class="font-semibold">Tarmoq</div>
-      <div class="text-sm text-gray-600 mt-2">Investorlar va mentorlar bazasi.</div>
+      <div class="font-semibold">Kuchli jamoa</div>
+      <div class="text-sm text-gray-600 mt-2">Bizning tarmoqda axborot xavfsizligi bo‘yicha ekspert, hamda ijtimoiy qatlam talabini yaxshi tushunuvchi marketolog hamda biznesda kuchli tajribaga ega mutahassis mavjud. Bu bizga mahsulotni tezkor, ishonchli va keng ko‘lamda joriy etish imkonini beradi.</div>
     </div>
   </div>
 </section>
@@ -202,14 +195,6 @@ document.getElementById("plan").innerHTML = `
         <li>Beta — feedback cycle</li>
         <li>Launch — marketing</li>
       </ol>
-
-      <h4 class="font-semibold mt-4">Texnologiyalar</h4>
-      <ul class="mt-2 list-disc list-inside text-gray-600">
-        <li>Frontend: HTML + CSS + JS</li>
-        <li>Backend: Node.js + Express</li>
-        <li>Database: PostgreSQL</li>
-        <li>Infra: Docker, AWS</li>
-      </ul>
     </div>
 
     <div>
@@ -218,13 +203,6 @@ document.getElementById("plan").innerHTML = `
         <li>LLM — onboarding helper</li>
         <li>Search — skills matching</li>
         <li>Analytics — user behavior</li>
-      </ul>
-
-      <h4 class="font-semibold mt-4">KPI’lar</h4>
-      <ul class="list-disc list-inside mt-2 text-gray-600">
-        <li>User activation</li>
-        <li>Retention</li>
-        <li>Loyihalarning ishga tushirilishi</li>
       </ul>
     </div>
   </div>
@@ -237,8 +215,8 @@ document.getElementById("footer").innerHTML = `
   <div class="flex flex-col md:flex-row md:justify-between">
     <div>
       <div class="font-semibold">Biz bilan bog‘lanish</div>
-      <div class="mt-2">Email: </div>
-      <div>Telegram: </div>
+      <div>Aloqa: +998 90 445 02 40</div>
+      <div>Telegram: <a href="https://t.me/shahlo_zarifova">Team leader</a></div>
     </div>
 
     <div class="mt-4 md:mt-0 text-right">
