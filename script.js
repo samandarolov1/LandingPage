@@ -44,7 +44,7 @@ document.getElementById("hero").innerHTML = `
       </p>
 
       <div class="mt-6 flex gap-3">
-        <a href="#plan" class="px-4 py-2 bg-indigo-600 text-white rounded-md shadow hover:bg-indigo-700">Qo‘shiling</a>
+        <a href="#plan" class="px-4 py-2 bg-indigo-600 text-white rounded-md shadow hover:bg-indigo-700">Aloqa</a>
         <a href="#roadmap" class="px-4 py-2 border rounded-md">Yo‘l xaritasi</a>
       </div>
     </div>
